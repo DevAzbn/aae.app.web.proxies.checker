@@ -16,7 +16,7 @@ var request = require('request').defaults({
 	url : 'http://app.azbn.ru/process/req/',//'http://ifconfig.co/json',
 	method : 'GET',
 	//gzip : true,
-	timeout : 700,
+	timeout : 2100,
 	headers: {
 		'User-Agent' : 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36 aaeEdition',
 	},
